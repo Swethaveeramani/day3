@@ -1,0 +1,168 @@
+body {
+    font-family: monospace;
+    background-color: rgb(231, 248, 252);
+    border: #911111 2px solid;
+    padding-left: 10%; /* More responsive padding */
+    font-size: 15px;
+    
+}
+
+h1 {
+    color: rgb(226, 43, 128);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h4 {
+    color: rgb(13, 134, 94);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+p {
+    color: rgb(3, 96, 99);
+    font-size: larger;
+}
+
+.form {
+    color: rgb(7, 107, 7);
+    border: 2px solid #6d7575; /* Border around the entire form */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+.form input, .form select, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #1f1616;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.form input[type="submit"]:hover {
+    background-color: #5f7f7f;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+.tb {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #911111;
+}
+
+.tb thead {
+    background-color: #4CAF50;
+    color: rgb(24, 23, 23);
+}
+
+.tb th, .tb td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #524e4e;
+}
+
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 5%; /* Adjust padding for smaller screens */
+    }
+
+    .tb {
+        font-size: 14px;
+    }
+
+    .tb th, .tb td {
+        padding: 8px;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+}
+/* Project card styles */
+.project {
+    background-color: #dfdafd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+.project:hover{
+    background-color: #d5ecec;
+}
+.project h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.project a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+    color: #2c3e50;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .project {
+        padding: 15px;
+    }
+
+    .project h2 {
+        font-size: 1.6rem;
+    }
+
+    .project p {
+        font-size: 0.95rem;
+    }
+}
+.image {
+    float: right;
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+.image img {
+    border-radius: 60%;
+}
